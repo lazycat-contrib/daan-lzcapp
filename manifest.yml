@@ -1,0 +1,18 @@
+lzc-sdk-version: 0.1
+name: Daan
+package: cloud.lazycat.app.daan
+version: 0.3.0
+description: 一个轻量级的语言模型客户端
+license: http://www.apache.org/licenses/
+homepage: https://github.com/pluveto/daan
+author: pluveto
+application:
+  subdomain: daan
+  public_path:
+    - /
+  routes:
+    - /=file:///lzcapp/pkg/content/
+unsupported_platforms:
+  - ios
+  - android
+  - tvos
